@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* header part starts  */
+header{
+    width: 90%;
+    display: flex;
+    /* background-color: red; */
+    margin-left: 5%;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logo{
+    width: 20%;
+    /* background-color: green; */
+}
+/* .logo img{
+
+} */
+
+nav{
+    width: 50%;
+    /* background-color: blue; */
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+/* nav ul li{
+
+} */
+nav ul li a{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    text-decoration: none;   
+    font-size: 18px;
+}
+
+/* banner section */
+.banner{
+    width: 90%;
+    margin-left: 5%;
+}
+.banner img{
+    width: 100%;
+}
+
+/* article section  */
+article{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 30px;
+}
+.inside_article{
+    padding: 50px;
+}
+article h4{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    /* column-rule: grey; */
+    color: #626262;
+}
+article h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* color: rgb(63, 65, 68); */
+    /* color: #b4ad9e; */
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+article .para p{
+    font-size: 18px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+
+/* feature section  */
+section{
+    width: 90%;
+    margin-left: 5%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+section .feature{
+    padding: 50px;
+    display: flex;
+}
+section .feature .part_1{
+    width: 50%;
+}
+section .feature .part_1 img{
+    float: left;  
+    width: 90%; 
+    padding-bottom: 20px;
+}
+section .feature .part_1 h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+section .feature .part_1 h1{
+    padding-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+section .feature .part_1 p{
+    padding-bottom: 30px;
+    font-size: 18px;
+    padding-right: 50px;
+
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+section .feature .part_2{
+    width: 50%;
+}
+section .feature .part_2 h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 13px
+}
+section .feature .part_2 p{
+    padding-bottom: 30px;
+    font-size: 18px;
+    padding-left: 50px;
+
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    
+}
+section .feature .part_2 h1{
+    padding-bottom: 30px;
+    padding-left: 50px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+section .feature .part_2 img{
+    float: right;
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+/* newsletter section  */
+.signup_section{
+    width: 100%;
+    background-color: #f0f0f0;
+    /* height: 300px;
+    width: 100%; */
+    margin: 0; 
+    padding: 100px 0; 
+}
+
+.form{
+    width: 21%;
+    margin: auto;
+    position: relative;
+    /* text-align: center; */
+    /* padding-top: 100px; */
+}
+.form h1{
+    color: #626262;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+.form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.form input::placeholder{
+    color: #626262;
+
+}
+.form input:focus{
+    outline: none;
+}
+.icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.icon img{
+
+}
+
+/* Load more section  */
+.loadmore{
+    /* padding: 100px 0; */
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+.loadmore button{
+    background: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* footer  */
+footer{
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+.footer_content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.terms ul{
+    display: flex;
+    list-style: none;
+}
+.terms ul li{
+   padding-right: 15px;
+}
+.terms ul li a{
+    text-decoration: none;
+    color: #626262;
+}
+
+.social_icon ul{
+    display: flex;
+    list-style: none;
+}
+.social_icon ul li{
+    padding-left: 15px;
+}
+.social_icon ul li a{
+    text-decoration: none;
+    color: #626262;
+}
